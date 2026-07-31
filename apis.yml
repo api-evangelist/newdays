@@ -1,7 +1,18 @@
 aid: newdays
-name: Newdays
-description: Newdays is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: NewDays
+description: >-
+  NewDays is a cognitive health company backed by General Catalyst that delivers
+  a clinically proven, Medicare-covered program for people living with mild
+  cognitive impairment (MCI) or dementia. The service pairs a dedicated licensed
+  cognitive clinician with AI-guided brain-training exercises delivered remotely
+  from home: a free consultation, ongoing telehealth sessions, and
+  clinician-supervised AI exercises between visits. NewDays reports that 75% of
+  participants showed improved cognitive function on ACE-III assessments and that
+  dementia participants delayed symptom progression by more than a year versus an
+  untreated baseline. NewDays is a direct-to-patient telehealth offering with no
+  public developer program, API, SDKs, or documentation surface; this profile
+  captures the company's identity and public web properties for the API Evangelist
+  network.
 url: https://raw.githubusercontent.com/api-evangelist/newdays/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +20,60 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 tags:
 - Company
+- Health
+- Cognitive Health
+- Dementia
+- Telehealth
+- Digital Therapeutics
+- AI
+- Medicare
+image: https://newdays.ai/favicon.ico
 apis: []
+common:
+- type: DomainSecurity
+  url: security/newdays-domain-security.yml
+- type: Website
+  name: Website
+  url: https://newdays.ai
+- type: SignUp
+  name: Sign Up
+  url: https://app.newdays.ai/auth/signup
+- type: Login
+  name: Login
+  url: https://app.newdays.ai/auth/login
+- type: TermsOfService
+  name: Terms of Use
+  url: https://app.newdays.ai/legal/terms-of-use
+- type: Blog
+  name: Newsroom
+  url: https://newdays.ai/newsroom
+- type: Research
+  name: Research
+  url: https://newdays.ai/research
+- type: Partners
+  name: Partners
+  url: https://newdays.ai/partners
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
